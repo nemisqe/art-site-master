@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bank Sans", "Helvetica", "Arial", sans-serif;
+  background-color: #fff2ac;
+  font-size: 19px;
+}
+
+@font-face {
+  font-family: "Bank Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/BankSansEFCY-Med.otf");
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.about-company__desc {
+  width: 780px;
+}
+
+.about-company__img-container {
+  text-align: right;
+  max-width: 590px;
+  min-width: 410px;
+}
+
+.about-company__wrapper {
+  display: flex;
+}
+
+.about-company__img {
+  width: 275px;
+  height: 375px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.about-company__quote {
+  font-family: "Calibri, Bank Sans", "Helvetica", "Arial", sans-serif;
+  font-style: italic;
+}
+
+.nav-wrapper {
+  width:  440px;
+  margin:  0 auto;
+}
+
+.main-header {
+  min-height: 500px;
+}
+
+.main-header > img {
+  margin-top:  150px;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top:  100px;
+  padding:  0;
+}
+
+.header-nav li {
+  list-style: none;
+}
+
+.header-nav a {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.features {
+  margin-top:  50px;
+  margin-bottom:  50px;
+}
+
+.slider {
+  width: auto;
+  height: 600px;
+
+  background:  url(../img/slider.jpg) center;
+  background-size:  cover;
+  border:  1px solid transparent;
+}
+
+.slider a {
+  color:  #000000;
+  font-size:  14px;
+}
+
+.slider-items__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top:  500px;
+}
+
+.slider-item {
+  width:  400px;
+  background-color:  rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.sale-banner {
+  width: auto;
+  height: 550px;
+  background: url(../img/main2.jpg) no-repeat;
+  background-size:  cover;
+  border:  1px solid transparent;
+}
+
+.sale-container {
+  width:  700px;
+  height:  400px;
+  background-color:  rgba(255, 255, 255, 0.7);
+  margin:  80px auto;
+  border:  1px solid transparent;
+}
+
+.sale-container > h2 {
+  margin-left:  20px;
+  margin-top:  30px;
+}
+
+.sale-container a {
+  color:  #000000;
+  text-decoration: none;
+}
+
+.percent-container {
+  margin-left:  400px;
+  margin-right:  20px;
+  margin-top:  30px;
+  text-align:  right;
+}
+
+.sale-percent {
+  font-size:  70px;
+}
+
